@@ -203,10 +203,8 @@ font-size:1em;
 
 #news {
 	margin-top: 0px;
-	/*padding-top: 0px;*/
+	padding-top: 0px;
 	border:none;
-    padding: 0 5%;
-    width: 90%;
 }
 
 #myCarousel .slider_img {width: 1173px;}
@@ -438,26 +436,12 @@ text-decoration:underline;
     position: relative;
     display: inline-block;
     margin-bottom: 80px;
-    /*margin-right: 14px;*/
-    /*width: 31%;*/
-    margin-left: 1%;
-    width: 32%;
+    margin-right: 14px;
+    width: 31%;
     min-height: 60px;
     font-size: 10pt;
     line-height: 1.4;
 }
-@media (min-width: 768px) and (max-width: 1024px){
-    #news{
-        padding: 0 3%;
-        width: 94%;
-    }
-}
-@media (max-width: 425px){
-    .branch .lo-info {
-        width: 100%;
-    }
-}
-
 .branch .lo-info.last {
     margin-right: 0px;
 }
